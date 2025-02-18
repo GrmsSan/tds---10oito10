@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematica</title>
+    <style>
+        *{
+            pedding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Contas Matematicas</h1>
+
+   
+    <section>
+        <h2>  </h2>
+
+
+
+    </section>
+        <h2> </h2>
+
+
+
+    <section>
+        <h2>Divisão</h2>
+
+
+
+    </section>
+        <h2>Soma</h2>
+        <label for="n1">Primeiro numero: </label><br>
+        <input type="text" id="n1" planceholder="Digite o primeiro numero "><br>
+        <label for="n2">Segundo numero: </label><br>
+        <input type="text" id="n2" placeholder="Digite o segundo numero" ><br>
+        <button onclick="somar()">SOMAR</button><br>
+        <p id="res">Resultado</p>
+
+
+    <section>
+        <h2> Multiplicação</h2>
+        <label for="n3">Primeiro numero: </label><br>
+        <input type="text" id="n3" planceholder="Digite o primeiro numero "><br>
+        <label for="n4">Segundo numero: </label><br>
+        <input type="text" id="n4" placeholder="Digite o segundo numero" ><br>
+        <button onclick="Multiplicar()">MULTIPLICAR</button><br>
+        <p id="resul">resultado</p>
+
+
+
+    <section>
+        <h2>Subtração </h2>
+        <h2> Subtração</h2>
+        <label for="n5">Primeiro numero: </label><br>
+        <input type="text" id="n5" planceholder="Digite o primeiro numero "><br>
+        <label for="n6">Segundo numero: </label><br>
+        <input type="text" id="n6" placeholder="Digite o segundo numero" ><br>
+        <button onclick="Subtracao()">Subtrair</button><br>
+        <p id="result">resultados</p>
+
+
+
+
+    </section>
+    <script>
+    function somar(){
+
+        var numero1 = parseFloat(document.getElementById("n1").value)
+        var numero2 = parseFloat(document.getElementById("n1").value)
+        var res = document.getElementById("res")
+        res.textContent = numero1 + numero2
+
+        return res
+
+    }
+
+    function Multiplicar(){
+
+        var numero3 = parseFloat(document.getElementById("n3").value)
+        var numero4 = parseFloat(document.getElementById("n3").value)
+        var resul = document.getElementById("resul")
+        resul.textContent = numero3 * numero4
+
+        return resul
+
+    }
+
+      function Subtracao(){
+
+        var numero5 = parseFloat(document.getElementById("n5").value)
+        var numero6 = parseFloat(document.getElementById("n5").value)
+        var result = document.getElementById("result")
+        result.textContent = numero5 - numero6
+
+        return result
+
+    }
+
+    </script>
+    
+
+
+
+
+
+</body>
+</html>
