@@ -13,7 +13,7 @@ section{
 }
 
 .navbar{
-    background-color: rgb(102, 100, 102) !important;
+    background-color: rgb(0, 0, 0) !important;
 }
 
 
@@ -25,6 +25,7 @@ section{
     flex-wrap: wrap;
     gap: 2vw;
 }
+
 
 .s1-left{
     display: flex;
@@ -59,14 +60,48 @@ section{
     font-family: "Sigmar", serif;
 }
 
+#s2{
+    background-image:url(./assets/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #787878;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 1px 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.cart{
+ 
+    background-color: #020202a9;
+    width: 16rem;
+    height:450px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(5,0,82);
+    background: linear-gradient(339deg, rgba(5,0,82,1) 0%, rgba(0,0,0,1) 0%, rgba(148,92,42,1) 48%);
+}
+
+
+
+
+
 @media (width < 1000px){
-    #s1{
+    #s2{
        padding: 80px 20px 0px 20px;
     }
     .wrap-img{
         width: 300px;
     }
-    .img-s1{
+    .img-s2{
         width: 300px;
         height: 300px;
     }
