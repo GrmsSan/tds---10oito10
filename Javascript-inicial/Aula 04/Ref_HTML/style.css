@@ -1,0 +1,39 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    display: flex;
+    min-height: 100vh;
+    height: auto;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1vh;
+    
+}
+
+section{
+    border: 2px solid rgb(17, 255, 0);
+    padding: 10px
+}
+

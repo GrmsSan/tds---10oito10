@@ -87,7 +87,7 @@ section{
     align-items: center;
     justify-content: center;
     background: rgb(5,0,82);
-    background: linear-gradient(339deg, rgba(5,0,82,1) 0%, rgba(0,0,0,1) 0%, rgba(148,92,42,1) 48%);
+    background: linear-gradient(339deg, rgb(92, 89, 135) 0%, rgba(0,0,0,1) 0%, rgb(73, 73, 73) 48%);
 }
 
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - ref Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculos com funçôes com parametros</h1>
+    <main>
+        <section>
+            <h2>Função de somar</h2>
+            <input type="number" id="n1" placeholder="Digite um numero"> 
+            <input type="number" id="n2" placeholder="Digite um numero">
+            <button onclick="calcular('n1','n2','resulSom', '+')">CALCULAR</button>
+            <p id="resulSom"></p>
+        </section>
+        <section>
+            <h2>Função de subtrair</h2>
+            <input type="number" id="n3" placeholder="Digite um numero"> 
+            <input type="number" id="n4" placeholder="Digite um numero">
+            <button onclick="calcular('n3','n4','resulSub', '-')">CALCULAR</button>
+            <p id="resulSub"></p>
+
+        </section>
+        <section>
+            <h2>Função de multip</h2>
+            <input type="number" id="n5" placeholder="Digite um numero"> 
+            <input type="number" id="n6" placeholder="Digite um numero">
+            <button onclick="calcular('n5','n6','resulMult', '*')">CALCULAR</button>
+            <p id="resulMult"></p>
+
+        </section>
+        <section>
+            <h2>Função de divisao</h2>
+            <input type="number" id="n7" placeholder="Digite um numero"> 
+            <input type="number" id="n8" placeholder="Digite um numero">
+            <button onclick="calcular('n7','n8','resulDiv', '/')">CALCULAR</button>
+            <p id="resulDiv"></p>
+
+        </section>
+
+        
+    </main>
+</body>
+</html>
