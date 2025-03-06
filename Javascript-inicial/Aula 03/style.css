@@ -38,12 +38,6 @@ section{
     width: 600px;
 }
 
-.wrap-img{
-    width: 400px;
-    overflow: hidden;
-    border-radius: 100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
 
 .img-s1{
     width: 400px;
